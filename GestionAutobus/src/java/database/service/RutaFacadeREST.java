@@ -24,7 +24,7 @@ import javax.ws.rs.Produces;
  * @author usuario0316
  */
 @Stateless
-@Path("database.ruta")
+@Path("ruta")
 public class RutaFacadeREST extends AbstractFacade<Ruta> {
     @PersistenceContext(unitName = "GestionAutobusPU")
     private EntityManager em;
